@@ -2,6 +2,7 @@ from random import randint
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtWidgets import QMessageBox
 
+
 class Ui_PasswordGenerator(object):
     def setupUi(self, PasswordGenerator):
         self.lc_only = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's',
