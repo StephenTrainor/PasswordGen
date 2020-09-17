@@ -343,9 +343,9 @@ class Ui_PasswordGenerator(object):
             pass
 
         if self.uppercase_box.isChecked() == True:
-            self.alpha = ["ABCDEFGHIJKLMNOPQRSTUVWXYZ"]
+            self.counter = 0
+            self.alpha = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
             for i in range(len(self.alpha)):
-                self.counter = 0
                 self.reg.append(self.alpha[self.counter])
                 self.counter += 1
         else:
